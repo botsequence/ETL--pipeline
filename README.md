@@ -1,6 +1,6 @@
 # ETL--pipeline 
 
-A compact data engineering project executed in **Google Colab** using **Python**, showcasing ETL flow for nested datasets.
+A data engineering project executed in **Google Colab** using **Python**, showcasing ETL flow for nested datasets.
 
 ##  TechStack
 - **Python 3** (Colab)
@@ -16,17 +16,18 @@ A compact data engineering project executed in **Google Colab** using **Python**
 - **Automation-ready script** for recurring data jobs
 
 ##  Output
-Final `.xlsx` output is included in this repo for downloading.
+Final `.xlsx` output is included in data/ folder for downloading.
 
 Link to view it in google sheets (https://docs.google.com/spreadsheets/d/1-cBE-msrOB70j3taI5L2IqfuxggX8x1R/edit?usp=drivesdk&ouid=108221278507136154331&rtpof=true&sd=true)
 
 
 ##  How to run
-1. Open the Colab notebook.
-2. Install required libraries (if not present).
-3. Run each cell sequentially.
-4. Output gets saved as XLSX file.
+1. Go to the notebook/ folder.
+2. Open the .ipynb files in numerical order.
+3. Each file contains one code cell — copy the code from the preview section.
+4. Paste each into a separate code cell in a new Google Colab notebook, in the same order.
+5. Run the cells one by one to execute the full ETL pipeline.
 
 
 ## Purpose
- This project automates the end-to-end ETL (Extract, Transform, Load) using Python, public APIs, and Pandas. Raw Data was pulled from a nested JSON structure mimicking real-world API responses to demonstrate extraction, transformation, and export into structured .xlsx files compatible with Excel and Google Sheets for further analysis or sharing. It demonstrates core data engineering practices like data normalization, transformation, and automated file export using open-source tools.
+ The project automates the end-to-end ETL (Extract, Transform, Load) using Python, public APIs, and Pandas. Raw Data was pulled from a JSON structure simulating real-world API responses to showcase extraction, transformation, and export into structured .xlsx files compatible with Excel and Google Sheets. It displays core data engineering practices like data normalization, transformation, and automated file export.
