@@ -29,4 +29,4 @@ Link to view it in google sheets (https://docs.google.com/spreadsheets/d/1-cBE-m
 
 
 ## Purpose
- This project automates the end-to-end ETL (Extract, Transform, Load) using Python, public APIs, and Pandas. Raw data is pulled from multiple sources, cleaned, and exported into a clean `.xlsx` file, compatible with Excel and Google Sheets for further analysis or sharing. It demonstrates core data engineering practices like data normalization, transformation, and automated file export using open-source tools.
+ This project automates the end-to-end ETL (Extract, Transform, Load) using Python, public APIs, and Pandas. Raw Data was pulled from a nested JSON structure mimicking real-world API responses to demonstrate extraction, transformation, and export into structured .xlsx files compatible with Excel and Google Sheets for further analysis or sharing. It demonstrates core data engineering practices like data normalization, transformation, and automated file export using open-source tools.
