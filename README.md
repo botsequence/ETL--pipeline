@@ -13,7 +13,7 @@ A data engineering project executed in **Google Colab** using **Python**, showca
 - **ETL pipeline**: Extract → Clean → Flatten → Export  
 - **Nested data handling**, **data wrangling**
 - **Output formatting** for analysis/reporting
-- **Automation-ready script** for recurring data jobs
+- **reusable script** for recurring data jobs
 
 ##  Output
 Final `.xlsx` output is included in data/ folder for downloading.
